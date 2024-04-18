@@ -72,22 +72,22 @@ function App() {
 					</Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
-					<Nav.Link eventKey="snacks"><p>SNACKS</p></Nav.Link>
+					<Nav.Link eventKey="snacks"><p className="menu-items mb-0">SNACKS</p></Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
-					<Nav.Link eventKey="tacos"><p>TACOS</p></Nav.Link>
+					<Nav.Link eventKey="tacos"><p className="menu-items mb-0">TACOS</p></Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
-					<Nav.Link eventKey="fries"><p>FRIES</p></Nav.Link>
+					<Nav.Link eventKey="fries"><p className="menu-items mb-0">FRIES</p></Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
-					<Nav.Link eventKey="burgers"><p>BURGERS & SANDWICHES</p></Nav.Link>
+					<Nav.Link eventKey="burgers"><p className="menu-items mb-0">BURGERS & SANDWICHES</p></Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
-					<Nav.Link eventKey="salads"><p>SALADS</p></Nav.Link>
+					<Nav.Link eventKey="salads"><p className="menu-items mb-0">SALADS</p></Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
-					<Nav.Link eventKey="rice bowls"><p>RICE BOWLS</p></Nav.Link>
+					<Nav.Link eventKey="rice bowls"><p className="menu-items mb-0">RICE BOWLS</p></Nav.Link>
 				</Nav.Item>
 			</Nav>
 		</>
