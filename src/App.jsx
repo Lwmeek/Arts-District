@@ -1,34 +1,60 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FiMenu } from "react-icons/fi";
+import { IoCloseSharp } from "react-icons/io5";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav";
 
 function App() {
-	const [count, setCount] = useState(0);
+	const [expanded, setExpanded] = useState(false);
+
+	const handleMenu = () => {
+		setExpanded(!expanded);
+	};
 
 	return (
 		<>
-			<div>
-				<a href="https://vitejs.dev" target="_blank">
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-				</a>
-				<a href="https://react.dev" target="_blank">
-					<img src={reactLogo} className="logo react" alt="React logo" />
-				</a>
-			</div>
-			<h1>Vite + React</h1>
-			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>
-					count is {count}
-				</button>
-				<p>
-					Edit <code>src/App.jsx</code> and save to test HMR
-				</p>
-			</div>
-			<p className="read-the-docs">
-				Click on the Vite and React logos to learn more
-			</p>
+			<Navbar expand="lg" className="bg-body-tertiary">
+				<Container>
+					<Navbar.Brand href="#">ARTS DISTRICT KITCHEN</Navbar.Brand>
+					<Button className="btn rounded-0" size="lg" variant="outline-light">
+						386.631.4549
+					</Button>
+					<button className="button" onClick={handleMenu}>
+						{expanded ? (
+							<IoCloseSharp className="icon" />
+						) : (
+							<FiMenu className="icon" />
+						)}
+					</button>
+				</Container>
+			</Navbar>
+			<Nav as="div" variant="underline" defaultActiveKey="/home" className="items-menu">
+				<Nav.Item>
+					<Nav.Link eventKey="happy" className="mix"><p className="items-menu mb-0">HAPPY HOUR</p></Nav.Link>
+				</Nav.Item>
+				<Nav.Item>
+					<Nav.Link eventKey="snacks">SNACKS</Nav.Link>
+				</Nav.Item>
+				<Nav.Item>
+					<Nav.Link eventKey="tacos">TACOS</Nav.Link>
+				</Nav.Item>
+				<Nav.Item>
+					<Nav.Link eventKey="fries">FRIES</Nav.Link>
+				</Nav.Item>
+				<Nav.Item>
+					<Nav.Link eventKey="burgers">BURGERS & SANDWICHES</Nav.Link>
+				</Nav.Item>
+				<Nav.Item>
+					<Nav.Link eventKey="salads">SALADS</Nav.Link>
+				</Nav.Item>
+				<Nav.Item>
+					<Nav.Link eventKey="rice bowls">RICE BOWLS</Nav.Link>
+				</Nav.Item>
+			</Nav>
 		</>
 	);
 }
