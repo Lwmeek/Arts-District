@@ -7,16 +7,39 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
+import Collapse from "react-bootstrap/Collapse";
 
 function App() {
 	const [expanded, setExpanded] = useState(false);
 
 	const handleMenu = () => {
 		setExpanded(!expanded);
+		{
+			expanded
+				? document.querySelector(".drop-menu").classList.add("show")
+				: document.querySelector(".drop-menu").classList.remove("show");
+		}
 	};
 
 	return (
 		<>
+			<div className="drop-menu">
+				<div className="d-flex justify-content-between">
+					<Button className="btn rounded-0" size="lg" variant="outline-dark">
+						386.631.4549
+					</Button>
+					<IoCloseSharp className="icon" onClick={handleMenu} />
+				</div>
+				<ul className="list d-flex flex-column gap-4">
+					<li className="list-item">HOME</li>
+					<li className="list-item">MENU</li>
+					<li className="list-item">ABOUT</li>
+					<li className="list-item">THE BREWERY</li>
+					<li className="list-item">CONTACT</li>
+					<li className="list-item">SUBSCRIBE</li>
+				</ul>
+			</div>
+
 			<Navbar expand="lg" className="bg-body-tertiary">
 				<Container>
 					<Navbar.Brand href="#">ARTS DISTRICT KITCHEN</Navbar.Brand>
@@ -24,17 +47,20 @@ function App() {
 						386.631.4549
 					</Button>
 					<button className="button" onClick={handleMenu}>
-						{expanded ? (
-							<IoCloseSharp className="icon" />
-						) : (
-							<FiMenu className="icon" />
-						)}
+						<FiMenu className="icon" />
 					</button>
 				</Container>
 			</Navbar>
-			<Nav as="div" variant="underline" defaultActiveKey="/home" className="items-menu">
+			<Nav
+				as="div"
+				variant="underline"
+				defaultActiveKey="/home"
+				className="items-menu"
+			>
 				<Nav.Item>
-					<Nav.Link eventKey="happy" className="mix"><p className="items-menu mb-0">HAPPY HOUR</p></Nav.Link>
+					<Nav.Link eventKey="happy" className="mix">
+						<p className="items-menu mb-0">HAPPY HOUR</p>
+					</Nav.Link>
 				</Nav.Item>
 				<Nav.Item>
 					<Nav.Link eventKey="snacks">SNACKS</Nav.Link>
