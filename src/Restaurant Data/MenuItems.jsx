@@ -180,3 +180,46 @@ const tacoItems = [
 		addOns: "",
 	},
 ];
+
+const riceBowlItems = [
+    {
+		id: 0,
+		name: "teriyaki chicken rice bowl",
+		category: "rice bowl",
+		price: "15",
+		description: "",
+		addOns: "",
+	},
+    {
+		id: 1,
+		name: "pretzel bites",
+		category: "sweet chili crispy cauliflower rice bowl",
+		price: "15",
+		description: "",
+		addOns: "",
+	},
+    {
+		id: 2,
+		name: "hoisin sambal glazed pork belly rice bowl",
+		category: "rice bowl",
+		price: "16",
+		description: "",
+		addOns: "",
+	},
+    {
+		id: 3,
+		name: "enchilada rice bowl",
+		category: "rice bowl",
+		price: "12",
+		description: "Enchilada sauce, pico de gallo, iceberg lettuce, and green onion on a bed of jasmine rice",
+		addOns: "Add Protein: Diablo Shrimp +6 Seasoned Ground Beef +4 Grilled Chipotle Lime Chicken +4",
+	},
+    {
+		id: 4,
+		name: "chicken tikka masala rice bowl",
+		category: "rice bowl",
+		price: "16",
+		description: "Chicken stewed in tikka masala sauce smothered over a bed of jasmine rice.",
+		addOns: "",
+	},
+]
