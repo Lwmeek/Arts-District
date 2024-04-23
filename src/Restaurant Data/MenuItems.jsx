@@ -294,3 +294,104 @@ const friesItems = [
 		addOns: "",
 	},
 ];
+
+const burgerItems = [
+	{
+		id: 0,
+		name: "ADD FRIES OR SALAD",
+		category: "burgers",
+		price: "6",
+		description: "",
+		addOns: "",
+	},
+	{
+		id: 1,
+		name: "BUTTERMILK FRIED CHICKEN SANDWICH",
+		category: "burgers",
+		price: "13",
+		description:
+			"Lettuce, tomatoes, pickles, and mayo. Choose from: Nashville Hot, Buffalo, Honey Garlic BBQ, or Mango Habanero Warning:  Nashville Hot is VERY spicy. Not for the faint of heart.",
+		addOns: "Add avocado, fried egg or bacon +2",
+	},
+	{
+		id: 2,
+		name: "CRAFT BURGER*",
+		category: "burgers",
+		price: "12",
+		description:
+			"Lettuce, tomatoes, pickles, caramelized onion, American cheese, and fry sauce.  Cooked to medium-well unless requested otherwise.",
+		addOns: "Add avocado, fried egg or bacon +2",
+	},
+	{
+		id: 3,
+		name: "ENCHILADA BURGER*",
+		category: "burgers",
+		price: "13.5",
+		description:
+			"Lettuce, tomatoes, Oaxaca cheese, queso fresco, cilantro, shaved red onion, smothered in enchilada sauce.  Cooked to medium-well unless requested otherwise.",
+		addOns: "Add avocado, fried egg or bacon +2",
+	},
+	{
+		id: 4,
+		name: "BBQ BACON BURGER*",
+		category: "burgers",
+		price: "14",
+		description:
+			"American cheese, candied bacon, and onion rings, and honey garlic BBQ sauce. Cooked to medium-well unless requested otherwise.",
+		addOns: "Add avocado, fried egg or bacon +2",
+	},
+	{
+		id: 5,
+		name: "HOT PASTRAMI SANDWICH",
+		category: "burgers",
+		price: "17",
+		description:
+			"1/2 lb shaved pastrami, Oaxaca cheese, pickled red onion, dill pickles, Dijonnaise, and pickled Fresno chilies. Explosion of flavors in every bite!",
+		addOns: "",
+	},
+	{
+		id: 6,
+		name: "SIGNATURE BBQ PORK BÁNH MÌ**",
+		category: "burgers",
+		price: "13",
+		description:
+			"Lemongrass honey soy glazed pork, pickled veggies, fresh cucumber, cilantro, jalapeno, and mayo.",
+		addOns: "",
+	},
+	{
+		id: 7,
+		name: "CRISPY CAULIFLOWER BÁNH MÌ",
+		category: "burgers",
+		price: "13",
+		description:
+			"Sweet chili glazed cauliflower, pickled veggies, fresh cucumber, cilantro, jalapeño, and mayo.",
+		addOns: "",
+	},
+	{
+		id: 8,
+		name: "VEGAS-STYLE CHOPPED CHEESE",
+		category: "burgers",
+		price: "13",
+		description:
+			"Seasoned chopped burger, American cheese, caramelized onion, lettuce, tomatoes, pickles, mayo, and enchilada sauce.",
+		addOns: "",
+	},
+	{
+		id: 9,
+		name: "PULLED PORK SANDWICH",
+		category: "burgers",
+		price: "14",
+		description:
+			"Slow roasted pork shoulder, cabbage slaw, shaved apple, carrots, and red onion. Served with a side of BBQ sauce.",
+		addOns: "",
+	},
+	{
+		id: 10,
+		name: "BLTA",
+		category: "burgers",
+		price: "12",
+		description:
+			"Thick-cut bacon, lettuce, tomatoes, avocado, pickled Fresno chilies, and mayo",
+		addOns: "",
+	},
+];
