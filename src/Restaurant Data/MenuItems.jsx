@@ -182,7 +182,7 @@ const tacoItems = [
 ];
 
 const riceBowlItems = [
-    {
+	{
 		id: 0,
 		name: "teriyaki chicken rice bowl",
 		category: "rice bowl",
@@ -190,7 +190,7 @@ const riceBowlItems = [
 		description: "",
 		addOns: "",
 	},
-    {
+	{
 		id: 1,
 		name: "pretzel bites",
 		category: "sweet chili crispy cauliflower rice bowl",
@@ -198,7 +198,7 @@ const riceBowlItems = [
 		description: "",
 		addOns: "",
 	},
-    {
+	{
 		id: 2,
 		name: "hoisin sambal glazed pork belly rice bowl",
 		category: "rice bowl",
@@ -206,20 +206,91 @@ const riceBowlItems = [
 		description: "",
 		addOns: "",
 	},
-    {
+	{
 		id: 3,
 		name: "enchilada rice bowl",
 		category: "rice bowl",
 		price: "12",
-		description: "Enchilada sauce, pico de gallo, iceberg lettuce, and green onion on a bed of jasmine rice",
-		addOns: "Add Protein: Diablo Shrimp +6 Seasoned Ground Beef +4 Grilled Chipotle Lime Chicken +4",
+		description:
+			"Enchilada sauce, pico de gallo, iceberg lettuce, and green onion on a bed of jasmine rice",
+		addOns:
+			"Add Protein: Diablo Shrimp +6 Seasoned Ground Beef +4 Grilled Chipotle Lime Chicken +4",
 	},
-    {
+	{
 		id: 4,
 		name: "chicken tikka masala rice bowl",
 		category: "rice bowl",
 		price: "16",
-		description: "Chicken stewed in tikka masala sauce smothered over a bed of jasmine rice.",
+		description:
+			"Chicken stewed in tikka masala sauce smothered over a bed of jasmine rice.",
 		addOns: "",
 	},
-]
+];
+
+const friesItems = [
+	{
+		id: 0,
+		name: "side of fries",
+		category: "fries",
+		price: "6",
+		description:
+			"Kennebec potatoes cooked ’til golden brown and delicious.  Served with a side of fry sauce.",
+		addOns: "",
+	},
+	{
+		id: 1,
+		name: "side of onion rings",
+		category: "fries",
+		price: "7",
+		description: "Served with a side of buttermilk ranch.",
+		addOns: "",
+	},
+	{
+		id: 2,
+		name: "TIKKA MASALA FRIES",
+		category: "fries",
+		price: "12/17",
+		description:
+			"Oaxaca cheese, pickled red onion, tikka masala sauce, and cilantro smothered over a bed of crispy golden-brown French fries.",
+		addOns:
+			"Add Protein: Diablo Shrimp +6 Seasoned Ground Beef +4 Grilled Chipotle Lime Chicken +4",
+	},
+	{
+		id: 3,
+		name: "ENCHILADA FRIES",
+		category: "fries",
+		price: "11/16",
+		description:
+			"Oaxaca cheese, shaved red onion, enchilada sauce, cilantro, and cilantro lime crema, loaded on a bed of crispy golden-brown French fries.",
+		addOns:
+			"Add Protein: Diablo Shrimp +6 Seasoned Ground Beef +4 Grilled Chipotle Lime Chicken +4",
+	},
+	{
+		id: 4,
+		name: "HANGOVER FRIES",
+		category: "fries",
+		price: "12/18",
+		description:
+			"Seasoned chopped burger, American cheese, pickled Fresno chilies, and fry sauce loaded on a bed of crispy golden-brown French fries.",
+		addOns: "",
+	},
+	{
+		id: 5,
+		name: "LOADED NASHVILLE FRIES",
+		category: "fries",
+		price: "11/16",
+		description:
+			"Hatch green chile queso, pico de gallo, and bacon, loaded on a bed of Nashville Hot seasoned fries.",
+		addOns:
+			"Add Protein: Diablo Shrimp +6 Seasoned Ground Beef +4 Grilled Chipotle Lime Chicken +4",
+	},
+	{
+		id: 6,
+		name: "GARBAGE FRIES",
+		category: "fries",
+		price: "13/19",
+		description:
+			"Grilled chipotle lime chicken, slow roasted pork belly, cheese, pico de gallo, guacamole, and cilantro lime crema loaded on a bed of golden-brown French fries.",
+		addOns: "",
+	},
+];
