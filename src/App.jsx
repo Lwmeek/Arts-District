@@ -70,19 +70,28 @@ function App() {
 					</button>
 				</Container>
 			</Navbar>
-			<h1>Good Times with Great Friends</h1>
+			<h1 className="phrase">Good Times with Great Friends</h1>
 			<div>
-				<GrLocationPin />
-				<address>
-					1510 SOUTH MAIN STREET LAS VEGAS, NV 89104 LOCATED INSIDE OF ABLE
-					BAKER BREWING 702.479.6355
-				</address>
+				<div className="d-flex gap-2 fs-5 mb-3 text-left">
+					<GrLocationPin className="symbol" />
+					<address className="fw-bold">
+						1510 SOUTH MAIN STREET LAS VEGAS, NV 89104 LOCATED INSIDE OF{" "}
+						<span className="special"><p className="baker mb-0">ABLE BAKER BREWING</p><p className="number">702.479.6355</p></span>
+					</address>
+				</div>
 			</div>
-			<div>
-				<FaRegClock />
-				<h2>SUN-THURS: 11:30AM-11PM FRI-SAT: 11:30AM-MIDNIGHT</h2>
+			<div className="d-flex gap-2 fs-4 mb-5">
+				<FaRegClock className="symbol" />
+				<h2>
+					<div>
+						<span className="special-day">SUN-THURS:</span> 11:30AM-11PM{" "}
+					</div>
+					<div>
+						<span className="special-day">FRI-SAT:</span> 11:30AM-MIDNIGHT
+					</div>
+				</h2>
 			</div>
-			<p>Serving Tasty Bites Since 2019</p>
+			<p className="fs-1 fw-bold text-center">Serving Tasty <br></br>Bites Since 2019</p>
 			<div>
 				<h3>PERFECT PINT PARTNERS</h3>
 				<p>
@@ -197,13 +206,13 @@ function App() {
 				</form>
 			</div>
 			<section className="mail-list">
-			<FaStar />
+				<FaStar />
 				<h4>JOIN OUR MAILING LIST</h4>
 				<p>
 					Sign up for our newsletter and learn about special events and
 					promotions before we announce them anywhere else!
 				</p>
-				<input type="email" name="" id="" placeholder="Email Address"/>
+				<input type="email" name="" id="" placeholder="Email Address" />
 				<button>SUBSCRIBE</button>
 			</section>
 			<footer>

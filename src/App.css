@@ -6,6 +6,31 @@
 	margin: 0;
 }
 
+.phrase {
+	font-size: 5rem;
+}
+
+.symbol {
+	color: skyblue;
+	width: 3rem;
+	height: 2rem;
+}
+
+.special {
+	color: skyblue;
+}
+
+.special-day {
+	color: lightblue;
+}
+
+.baker, .number {
+	transition: all .3s;
+}
+.baker:hover, .number:hover {
+	color: white;
+	cursor: pointer;
+}
 /* General styles */
 
 .button {
