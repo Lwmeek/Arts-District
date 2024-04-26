@@ -395,3 +395,42 @@ const burgerItems = [
 		addOns: "",
 	},
 ];
+
+const saladItems = [
+	{
+		id: 0,
+		name: "CLASSIC WEDGE SALAD",
+		category: "salad",
+		price: "12",
+		description:
+			"Iceberg, cherry tomatoes, blue cheese, pickled red onion, and slow roasted pork belly lardons.",
+		addOns: "",
+	},
+	{
+		id: 1,
+		name: "CHEF'S COBB SALAD",
+		category: "salad",
+		price: "14",
+		description:
+			"Chopped romaine, bacon, cherry tomatoes, cucumber, soft boiled egg, and blue cheese.",
+		addOns: "",
+	},
+	{
+		id: 2,
+		name: "TACO SALAD",
+		category: "salad",
+		price: "17",
+		description:
+			"Chopped romaine, house cheese blend, pico de gallo, guacamole, cilantro lime crema, fire roasted salsa, with choice of chipotle chicken or seasoned ground beef.",
+		addOns: "",
+	},
+	{
+		id: 3,
+		name: "ADD ONS",
+		category: "salad",
+		price: "",
+		description:
+			"Soft-boiled Egg – 2 Thick-cut Bacon – 2 Grilled Chipotle Chicken – 4 Seasoned Ground Beef – 4 Diablo Shrimp – 6 Slow Roasted Pork Belly – 6",
+		addOns: "",
+	},
+];
